@@ -62,9 +62,3 @@ docker build -t "local/python-ssh" --build-arg USERNAME=pythonssh --build-arg US
 - change `local/python-ssh` by your custom desired image name
 - change `pythonssh` by your custom desired username
 - change `sshpass` by your custom desired user password
-
-## TODO
-
-- Customize user/password by ENV variables or "secret file"
-- Set SSH log level for getting an output on `/var/log/auth.log`
-- Install sudo
